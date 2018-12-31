@@ -1,0 +1,8 @@
+prefix=/home/mikhail/workspace/install
+
+Name: Hello_world
+Description: Description of Hello_world
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mikhail/workspace/install/lib 
+Requires: 
