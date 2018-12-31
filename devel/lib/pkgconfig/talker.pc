@@ -1,0 +1,8 @@
+prefix=/home/mikhail/workspace/devel
+
+Name: talker
+Description: Description of talker
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mikhail/workspace/devel/lib 
+Requires: 

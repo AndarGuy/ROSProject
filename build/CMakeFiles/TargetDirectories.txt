@@ -43,3 +43,10 @@
 /home/mikhail/workspace/build/Hello_world/CMakeFiles/_catkin_empty_exported_target.dir
 /home/mikhail/workspace/build/Hello_world/CMakeFiles/rebuild_cache.dir
 /home/mikhail/workspace/build/Hello_world/CMakeFiles/install.dir
+/home/mikhail/workspace/build/talker/CMakeFiles/install/strip.dir
+/home/mikhail/workspace/build/talker/CMakeFiles/edit_cache.dir
+/home/mikhail/workspace/build/talker/CMakeFiles/list_install_components.dir
+/home/mikhail/workspace/build/talker/CMakeFiles/test.dir
+/home/mikhail/workspace/build/talker/CMakeFiles/install/local.dir
+/home/mikhail/workspace/build/talker/CMakeFiles/rebuild_cache.dir
+/home/mikhail/workspace/build/talker/CMakeFiles/install.dir

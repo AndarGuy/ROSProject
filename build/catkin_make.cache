@@ -1,2 +1,2 @@
-Hello_world
+Hello_world:talker
 -DCATKIN_DEVEL_PREFIX=/home/mikhail/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/mikhail/workspace/install -G Unix Makefiles
