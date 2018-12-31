@@ -74,7 +74,7 @@ if("TRUE" STREQUAL "TRUE")
 else()
   set(talker_SOURCE_PREFIX "")
   set(talker_DEVEL_PREFIX "")
-  set(talker_INSTALL_PREFIX /home/mikhail/workspace/install)
+  set(talker_INSTALL_PREFIX /usr/local)
   set(talker_PREFIX ${talker_INSTALL_PREFIX})
 endif()
 
@@ -116,7 +116,7 @@ if(NOT " " STREQUAL " ")
   endforeach()
 endif()
 
-set(libraries "")
+set(libraries "talker")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
@@ -160,7 +160,7 @@ foreach(t ${talker_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "")
+set(depends "rospy")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls

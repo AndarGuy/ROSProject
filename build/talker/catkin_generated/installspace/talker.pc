@@ -4,5 +4,5 @@ Name: talker
 Description: Description of talker
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/mikhail/workspace/install/lib 
-Requires: 
+Libs: -L/home/mikhail/workspace/install/lib -ltalker
+Requires: rospy
